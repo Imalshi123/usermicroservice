@@ -103,7 +103,7 @@ mongoose.connection.once('open', () => {
 });
 app.listen(PORT, () => {
 
-    console.log(`Server is up and running on PORT ${PORT}`);
+    console.log(`Server is up and runnig on PORT ${PORT}`);
     // warnlevellogger(`Micro Service User Controller Server is up and running on PORT ${PORT}` + " TimeStamp :" + getTimeStamp())
 });
 app.use('/user', UseController());
