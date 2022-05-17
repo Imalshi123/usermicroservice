@@ -112,6 +112,6 @@ app.use('/user', UseController());
 
 
 app.get('/', (req, res) => {
-    res.send('Server Running in kuberntes on Pawani')
+    res.send('Server Running in kuberntes on Paani')
     
   })
