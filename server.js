@@ -112,6 +112,6 @@ app.use('/user', UseController());
 
 
 app.get('/', (req, res) => {
-    res.send('Server Running in kubrts on Paani')
+    res.send('Server Running in kbrts on Paani')
     
   })
